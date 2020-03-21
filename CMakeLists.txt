@@ -191,7 +191,9 @@ add_executable(tutorial08_basic_shading
 	
 	tutorial08_basic_shading/StandardShading.vertexshader
 	tutorial08_basic_shading/StandardShading.fragmentshader
+	tutorial08_basic_shading/uvmap.DDS
 )
+
 target_link_libraries(tutorial08_basic_shading
 	${ALL_LIBS}
 )
@@ -212,10 +214,10 @@ add_executable(tutorial09_vbo_indexing
 	common/objloader.hpp
 	common/vboindexer.cpp
 	common/vboindexer.hpp
-	
 	tutorial09_vbo_indexing/StandardShading.vertexshader
 	tutorial09_vbo_indexing/StandardShading.fragmentshader
 )
+
 target_link_libraries(tutorial09_vbo_indexing
 	${ALL_LIBS}
 )
